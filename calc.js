@@ -1,41 +1,37 @@
-/* Сделайте простой калькулятор на 4 действия (сложение, вычитание, деление, умножение). 4 кнопки, по нажатию которые запрашиваются два числа и выдается результат их вычисления, соответствующий действию на кнопке. */
+function showMessage() {
 
-function showMessagePlus() {
-  
-    let x = prompt('Введите первое число', "x");
+    let x = document.getElementById('x').value;
+    
+    console.log(x);
 
-    let y = prompt('Введите второе число', "y");
+    let y = document.getElementById('y').value;
     
-    alert( Number(x) + Number(y) );
-    
+    console.log(y);
+
+    let operation = document.getElementById('operation').value;
+
+    if (operation==="+"){
+
+        document.getElementById('result').innerHTML = Number(x) + Number(y);
+
     }
 
-function showMessageMinus() {
-  
-    let x = prompt('Введите первое число', "x");
+    if (operation==="-"){
 
-    let y = prompt('Введите второе число', "y");
-    
-    alert( Number(x) - Number(y) );
-    
-    }
-    
-function showMessageDivide() {
-  
-    let x = prompt('Введите первое число', "x");
+        document.getElementById('result').innerHTML = Number(x) - Number(y);
 
-    let y = prompt('Введите второе число', "y");
-    
-    alert( Number(x) / Number(y) );
-    
     }
 
-function showMessageMultiply() {
-  
-    let x = prompt('Введите первое число', "x");
+    if (operation==="*"){
 
-    let y = prompt('Введите второе число', "y");
-    
-    alert( Number(x) * Number(y) );
-    
+        document.getElementById('result').innerHTML = Number(x) * Number(y);
+
+    }
+
+    if (operation==="/"){
+
+        document.getElementById('result').innerHTML = Number(x) / Number(y);
+
+    }
+
     }

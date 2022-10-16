@@ -4,13 +4,13 @@ body {
 
 .container-fluid {
     display: flex;
-    margin: 200px 0 0 300px;
+    margin: 200px 0 0 200px;
 }
 
 .heading {
     display: flex;
     position: absolute;
-    margin: -80px 0 0 300px;
+    margin: -80px 0 0 200px;
 }
 
 .btn-push {
@@ -23,4 +23,14 @@ body {
 
 .btn-push:hover {
     background-color:burlywood;
+}
+
+.operation {
+    display: flex;
+    width: fit-content;
+    margin-top: 10px;
+    margin-left: 200px;
+    font-size: 35px;
+    background-color: aliceblue;
+    border: 2px solid darkslategrey;
 }
