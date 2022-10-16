@@ -1,0 +1,26 @@
+body {
+    background-color: grey;
+}
+
+.container-fluid {
+    display: flex;
+    margin: 200px 0 0 300px;
+}
+
+.heading {
+    display: flex;
+    position: absolute;
+    margin: -80px 0 0 300px;
+}
+
+.btn-push {
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    background-color: white;
+    border-color: black;
+}
+
+.btn-push:hover {
+    background-color:burlywood;
+}
