@@ -2,11 +2,11 @@ function showMessage() {
 
     let x = document.getElementById('x').value;
     
-    console.log(x);
+    // console.log(x);
 
     let y = document.getElementById('y').value;
     
-    console.log(y);
+    // console.log(y);
 
     let operation = document.getElementById('operation').value;
 

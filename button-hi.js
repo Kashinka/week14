@@ -3,7 +3,7 @@
 function showMessage() {
     let input = document.getElementById('name');
 
-	console.log(input.value);
+	// console.log(input.value);
 
     document.getElementById('hi').innerHTML = 'Привет, '+ input.value;
 }
