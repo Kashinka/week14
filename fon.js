@@ -1,23 +1,23 @@
 function changeColor1 () {
 
-    let button1 = document.getElementById('button1'); 
+    let div1 = document.getElementById('div1'); 
 
-    button1.style.background = 'red';
+    div1.style.background = 'red';
 
 }
 
 function changeColor2 () {
 
-    let button1 = document.getElementById('button2'); 
+    let div1 = document.getElementById('div2'); 
 
-    button1.style.background = 'red';
+    div1.style.background = 'red';
 
 }
 
 function changeColor3 () {
 
-    let button1 = document.getElementById('button3'); 
+    let div1 = document.getElementById('div3'); 
 
-    button1.style.background = 'red';
+    div1.style.background = 'red';
 
 }
